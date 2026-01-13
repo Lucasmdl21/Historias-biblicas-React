@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-
-// componentes
-import Home from './components/Home.jsx'
+import { Routes, Route } from "react-router-dom"
+import Home from "./components/Home.jsx"
+import Stories from "./components/Stories.jsx"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <h1>ola</h1>
-        <Home />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/stories" element={<Stories />} />
+    </Routes>
   )
 }
 

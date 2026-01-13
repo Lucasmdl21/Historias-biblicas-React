@@ -1,0 +1,18 @@
+body{
+background: linear-gradient(
+  180deg,
+  #B6DBFF 0%,
+  #CFE8FF 60%,
+  #E3F2FF 100%
+);
+color: #172A45;
+
+
+
+
+     min-height: 100vh;
+}
+
+.containerTitles{
+    text-align: center;
+}
