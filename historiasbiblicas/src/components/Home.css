@@ -1,64 +1,106 @@
-
-
-
-
-/* CONTAINER */
 .home {
   min-height: 100vh;
-  background: linear-gradient(to bottom, #f8f5ef, #ece7de);
-}
-
-/* HERO */
-.hero {
-  height: 100vh;
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url("https://images.unsplash.com/photo-1504052434569-70ad5836ab65");
-  background-size: cover;
-  background-position: center;
-
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column; /* Alinha o conteúdo verticalmente */
   align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  color: white;
   text-align: center;
+  overflow: hidden; 
+  position: relative; 
 
-  padding: 30px;
-  color: #fff;
-  position: relative;
+
+background: linear-gradient(
+    145deg, 
+    var(--gold-dark) 0%, 
+    var(--blue) 50%, 
+    var(--gold) 100%,);
 }
 
-/* TÍTULO */
+
+
+.hero {
+  position: relative; 
+  z-index: 1;
+  max-width: 900px;
+  padding: 20px;
+  animation: slideInUp 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
 .hero h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  margin-bottom: 15px;
-  text-shadow: 0 5px 25px rgba(0,0,0,0.7);
+  font-size: clamp(3.5rem, 9vw, 6rem); /* MAIOR AINDA */
+  font-weight: 900;
+  margin-bottom: 25px;
+  line-height: 1.1;
+  color: #5d4037;
 }
 
-/* TEXTO */
 .hero p {
-  font-size: 1.3rem;
-  max-width: 650px;
-  margin-bottom: 35px;
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  color: rgba(47, 47, 47, 0.85);
+  max-width: 700px;
+  margin: 0 auto 50px auto;
   line-height: 1.6;
-  color: #f1f1f1;
+  font-weight: 300;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* O BOTÃO AGORA AINDA MAIS IMPACTANTE E DOURADO */
+.btn {
+  display: inline-block;
+  padding: 22px 60px; 
+  font-size: 1.35rem; 
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff; 
+  
+
+}
+
+.btn:hover {
+  transform: scale(1.1) translateY(-8px); /* Salta mais */
+  box-shadow: 0 25px 60px rgba(212, 175, 55, 0.6), 0 0 30px rgba(255,255,255,0.5) inset;
+  filter: brightness(1.15); /* Aumenta o brilho */
+  border-color: #fff; /* Borda branca ao hover */
+}
+
+/* Animações */
+@keyframes backgroundPan {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textShine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
 
-
-/* RESPONSIVO */
+/* Ajustes para telas pequenas */
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 2.4rem;
+    font-size: clamp(2.8rem, 12vw, 4.5rem);
   }
-
   .hero p {
+    font-size: clamp(1rem, 3vw, 1.3rem);
+  }
+  .btn {
+    padding: 18px 45px;
     font-size: 1.1rem;
   }
-
 }

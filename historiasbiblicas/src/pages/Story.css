@@ -1,0 +1,123 @@
+/* Página da história */
+.storyPage {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fdfcfb 0%, #f1e8dd 100%);
+  padding: 60px 20px;
+}
+
+/* Título */
+.containerTitles {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.storiesTitle {
+  font-family: 'Georgia', serif;
+  font-size: 3rem;
+  color: #5d4037;
+  position: relative;
+}
+
+.storiesTitle::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  background: #d4a373;
+  margin: 18px auto 0;
+  border-radius: 4px;
+}
+
+/* Conteúdo */
+.pageContent {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fffaf4;
+  padding: 50px 45px;
+  border-radius: 28px;
+  box-shadow: 0 14px 40px rgba(85, 71, 52, 0.12);
+  border: 1px solid #e6d5c3;
+}
+
+/* Texto principal */
+.storyText p {
+  font-family: 'Palatino', serif;
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: #4e342e;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
+/* Versículo e lições */
+.storyExtras {
+  background: linear-gradient(135deg, #f5ede4 0%, #eadfce 100%);
+  padding: 30px 35px;
+  border-radius: 22px;
+  border-left: 6px solid #d4a373;
+}
+
+.storyExtras p {
+  font-family: 'Georgia', serif;
+  font-size: 1.05rem;
+  color: #5d4037;
+  margin-bottom: 14px;
+}
+
+.storyExtras strong {
+  color: #8b5e3c;
+}
+.storyBtn{
+  margin-top: 1rem;
+  padding: 15px 10px;
+}
+/* Responsivo */
+/* Responsivo Otimizado */
+@media (max-width: 768px) {
+  .storyPage {
+    padding: 30px 15px; /* Menos padding no container pai para ganhar espaço */
+  }
+
+  .storiesTitle {
+    font-size: 1.8rem; /* Reduzido para não quebrar muitas linhas */
+    line-height: 1.2;
+  }
+
+  .storiesTitle::after {
+    width: 80px; /* Linha decorativa menor */
+    margin-top: 12px;
+  }
+
+  .pageContent {
+    padding: 30px 20px; /* Redução de padding interno */
+    border-radius: 20px; /* Curva mais suave para telas menores */
+  }
+
+  .storyText p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: left; /* Melhora muito a leitura no mobile (evita espaços vazios) */
+    margin-bottom: 1.5rem;
+    hyphens: auto; /* Hifenização automática se o navegador suportar */
+    max-width: 100%; /* Garante que o texto use o espaço disponível sem esticar */
+  }
+
+  .storyExtras {
+    padding: 20px;
+    border-left-width: 4px; /* Borda lateral mais fina */
+  }
+
+  .storyExtras p {
+    font-size: 1rem;
+  }
+
+  .storyBtn {
+    width: 100%; /* Botão ocupa a largura toda no mobile, facilitando o clique */
+    display: block;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 15px;
+    text-align: center;
+  }
+}

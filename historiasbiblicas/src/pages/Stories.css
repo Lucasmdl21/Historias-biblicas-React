@@ -1,0 +1,36 @@
+body {
+  background: 
+    linear-gradient(2deg, #ffffff 60%, #ffeb9c 100%),    /* gradiente pra direita */
+    linear-gradient(-2deg, #ffffff 60%, #ffeb9c 100%);  /* gradiente pra esquerda */
+  background-blend-mode: overlay;  /* mistura os dois gradientes */
+  color: #172A45;
+
+  min-height: 100dvh;
+}
+
+
+
+.storiesGrid {
+  display: grid;
+  /* Melhora a responsividade: o grid se ajusta sozinho e centraliza os cards */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px; /* Aumentei o espaço para o design "respirar" mais */
+  padding: 60px 20px;
+  
+  /* Centraliza o grid na tela se houver poucos cards */
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  /* Garante que os cards tenham a mesma altura na mesma linha */
+  align-items: stretch;
+  justify-items: center;
+}
+
+/* Ajuste para telas muito pequenas (celulares) */
+@media (max-width: 480px) {
+  .storiesGrid {
+    grid-template-columns: 1fr; /* Força uma coluna única */
+    padding: 20px;
+    gap: 25px;
+  }
+}
