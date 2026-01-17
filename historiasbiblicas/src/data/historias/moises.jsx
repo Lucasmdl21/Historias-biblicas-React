@@ -30,6 +30,10 @@ const moises = {
 
     "Depois que todos passaram, o mar se fechou novamente, e o povo ficou livre dos soldados do Egito.",
 
+    "Depois disso, Deus levou o povo até o Monte Sinai 🏔️. Lá, Deus falou com Moisés e lhe entregou os Dez Mandamentos, que ensinavam como amar a Deus e ao próximo.",
+
+    "Os mandamentos mostravam ao povo como viver de forma justa, obediente e cheia de amor, guiando suas escolhas todos os dias.",
+
     "Moisés guiou o povo pelo deserto, sempre confiando em Deus, que cuidava deles todos os dias 🌟.",
 
     "A história de Moisés nos mostra que Deus liberta, protege e usa pessoas comuns para cumprir grandes planos."
@@ -37,8 +41,7 @@ const moises = {
   versiculoChave:
     "O Senhor lutará por vocês; tão somente acalmem-se. (Êxodo 14:14)",
   licoes:
-    "A história de Moisés nos ensina sobre obediência, fé, coragem e confiança em Deus, que sempre cumpre Suas promessas."
+    "A história de Moisés nos ensina sobre obediência, fé, coragem, confiança em Deus e a importância de seguir Seus mandamentos."
 }
 
 export default moises;
-

@@ -7,17 +7,30 @@ import adaoEva from "./adaoEva.jsx"
 import torreBabel from "./babelTorre.jsx"
 import caimAbel from "./caimAbel.jsx"
 import joseDoEgito from "./JoseDoEgito.jsx"
+import jonasPeixe from "./jonasPeixe.jsx"
+import esterRainha from "./esterRainha.jsx"
+import nascimentoJesus from "./nascimentoJesus.jsx"
+import jesusInfanciaMilagres from "./jesusInfanciaMilagres.jsx"
+import crucificacaoJesus from "./crucificacaoJesus.jsx"
+import ressurreicaoJesus from "./ressureicaoJesus.jsx"
+
 
 const historiasBiblicas = [
-  noe,
-  daviGolias,
-  daniel,
-  moises,
   criacao,
   adaoEva,
-  torreBabel,
   caimAbel,
-  joseDoEgito
+  noe,
+  torreBabel,
+  joseDoEgito,
+  moises,
+  daviGolias,
+  daniel,
+  jonasPeixe,
+  esterRainha,
+  nascimentoJesus,
+  jesusInfanciaMilagres,
+  crucificacaoJesus,
+  ressurreicaoJesus
 ]
 
 export default historiasBiblicas

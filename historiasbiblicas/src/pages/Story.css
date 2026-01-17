@@ -72,7 +72,6 @@
   margin-top: 1rem;
   padding: 15px 10px;
 }
-/* Responsivo */
 /* Responsivo Otimizado */
 @media (max-width: 768px) {
   .storyPage {
@@ -113,11 +112,11 @@
   }
 
   .storyBtn {
-    width: 100%; /* Botão ocupa a largura toda no mobile, facilitando o clique */
-    display: block;
+
     box-sizing: border-box;
     font-size: 1rem;
     padding: 15px;
     text-align: center;
+
   }
 }
