@@ -2,7 +2,7 @@ const esterRainha = {
   id: "ester-a-rainha-corajosa-longa",
   titulo: "Ester, a Rainha Corajosa",
   categoria: "Antigo Testamento",
-  imagem: "/images/esterRainha.png",
+  imagem: "/Historias-biblicas-React/images/esterRainha.png",
   texto: [
     "Ester era uma jovem judia que vivia em um reino distante. Ela perdeu seus pais ainda pequena e foi criada por seu primo Mordecai, que a amava como uma filha. Ester era bondosa, humilde e muito bonita, tanto por fora quanto por dentro. Um dia, o rei do reino procurava uma nova rainha, e Ester foi escolhida entre muitas mulheres para ocupar esse lugar 👑.",
 

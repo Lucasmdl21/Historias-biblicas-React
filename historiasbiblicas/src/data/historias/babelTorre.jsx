@@ -2,7 +2,7 @@ const torreBabel ={
   id: "torre-de-babel-muito-longa",
   titulo: "A Torre de Babel",
   categoria: "Antigo Testamento",
-  imagem: "/images/torreBabel.png",
+  imagem: "/Historias-biblicas-React/images/torreBabel.png",
   texto: [
     "Depois do grande dilúvio, a humanidade começou a se espalhar novamente pela terra 🌍. As famílias cresceram, vilas surgiram, e todas as pessoas falavam a mesma língua, conseguindo se comunicar com facilidade.",
 

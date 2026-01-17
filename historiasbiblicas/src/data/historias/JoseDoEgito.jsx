@@ -2,7 +2,7 @@ const joseDoEgito = {
   id: "jose-do-egito-muito-longa",
   titulo: "José do Egito",
   categoria: "Antigo Testamento",
-  imagem: "/images/joseEgito.png",
+  imagem: "/Historias-biblicas-React/images/joseEgito.png",
   texto: [
     "José era um dos filhos de Jacó e vivia com sua família na terra de Canaã 🌿. Ele era muito amado por seu pai, o que despertava ciúmes em seus irmãos.",
 

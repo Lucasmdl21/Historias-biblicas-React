@@ -3,7 +3,7 @@ const noe =
     id: "noe",
     titulo: "Noé e a Arca",
     categoria: "Antigo Testamento",
-    imagem: '/images/NoeInTheArk.png',
+    imagem: '/Historias-biblicas-React/images/NoeInTheArk.png',
     texto: [
       "Há muito, muito tempo atrás, quando o mundo ainda estava aprendendo a ser bom, as pessoas começaram a se esquecer do amor. Em vez de ajudar umas às outras, muitas brigavam, machucavam e pensavam só em si mesmas. Isso deixou o coração de Deus muito triste.",
 

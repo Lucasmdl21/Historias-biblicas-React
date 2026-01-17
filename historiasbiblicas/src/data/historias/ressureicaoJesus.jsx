@@ -2,7 +2,7 @@ const ressurreicaoJesus = {
   id: "ressurreicao-de-jesus",
   titulo: "A Ressurreição de Jesus",
   categoria: "Novo Testamento",
-  imagem: "/images/ressurreicaoJesus.png",
+  imagem: "/Historias-biblicas-React/images/ressurreicaoJesus.png",
   texto: [
     "No terceiro dia após a crucificação, algumas mulheres foram ao túmulo de Jesus levando perfumes para cuidar do corpo. Ao chegarem, viram que a pedra que fechava a entrada havia sido removida, e o túmulo estava vazio. Um anjo lhes disse que Jesus não estava ali, pois havia ressuscitado, como Ele mesmo havia prometido.",
 

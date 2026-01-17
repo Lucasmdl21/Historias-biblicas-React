@@ -2,7 +2,7 @@ const crucificacaoJesus = {
   id: "crucificacao-de-jesus",
   titulo: "A Crucificação de Jesus",
   categoria: "Novo Testamento",
-  imagem: "/images/crucificacaoJesus.png",
+  imagem: "/Historias-biblicas-React/images/crucificacaoJesus.png",
   texto: [
     "Antes de ser preso, Jesus se reuniu com seus discípulos para a Última Ceia 🍞🍷. Ele partiu o pão e disse que representava seu corpo, e entregou o cálice dizendo que simbolizava seu sangue, que seria derramado por muitos. Nesse momento, Jesus também ensinou sobre o amor, o serviço e anunciou que seria traído.",
 

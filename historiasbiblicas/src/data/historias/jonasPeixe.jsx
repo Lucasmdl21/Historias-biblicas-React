@@ -2,7 +2,7 @@ const jonasPeixe = {
   id: "jonas-e-o-grande-peixe-longa",
   titulo: "Jonas e o Grande Peixe",
   categoria: "Antigo Testamento",
-  imagem: "/images/jonasPeixe.png",
+  imagem: "/Historias-biblicas-React/images/jonasPeixe.png",
   texto: [
     "Jonas era um profeta de Deus que recebeu uma missão importante: ir até a grande cidade de Nínive 🏙️ e avisar o povo que Deus queria que eles se arrependessem e mudassem de atitude. Nínive era conhecida por sua maldade, mas Deus queria dar ao povo uma nova chance. Mesmo assim, Jonas ficou com medo e decidiu fugir da presença do Senhor. Ele foi até o porto, encontrou um navio que ia para Társis 🚢 e achou que poderia escapar da vontade de Deus.",
 

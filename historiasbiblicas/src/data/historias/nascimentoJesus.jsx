@@ -2,7 +2,7 @@ const nascimentoJesus = {
   id: "nascimento-de-jesus-longa",
   titulo: "O Nascimento de Jesus",
   categoria: "Novo Testamento",
-  imagem: "/images/nascimentoJesus.png",
+  imagem: "/Historias-biblicas-React/images/nascimentoJesus.png",
   texto: [
     "Maria era uma jovem humilde que vivia em Nazaré. Um dia, o anjo Gabriel apareceu a ela e anunciou que ela seria a mãe do Filho de Deus 👼. Mesmo sem entender tudo, Maria confiou em Deus e aceitou Sua vontade com fé e obediência.",
 

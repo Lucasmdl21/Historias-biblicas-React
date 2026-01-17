@@ -2,7 +2,7 @@ const jesusInfanciaMilagres = {
   id: "jesus-infancia-ate-milagres-longa",
   titulo: "Jesus: Da Infância aos Seus Milagres",
   categoria: "Novo Testamento",
-  imagem: "/images/jesusInfanciaMilagres.png",
+  imagem: "/Historias-biblicas-React/images/jesusInfanciaMilagres.png",
   texto: [
     "Depois de seu nascimento, Jesus cresceu em Nazaré com Maria e José. Ele foi uma criança obediente, amorosa e cheia de sabedoria 👦. Desde pequeno, demonstrava um profundo amor por Deus. Quando tinha doze anos, foi com seus pais a Jerusalém para a festa da Páscoa e ficou no templo conversando com os mestres da lei, que ficaram admirados com sua compreensão. Maria e José o encontraram, e Jesus explicou que precisava cuidar das coisas de seu Pai celestial ✨. Ele então voltou para casa e continuou crescendo em estatura, sabedoria e graça diante de Deus e das pessoas.",
 

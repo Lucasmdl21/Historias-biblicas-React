@@ -2,7 +2,8 @@ const criacao = {
   id: "criacao-mundo",
   titulo: "A Criação do Mundo",
   categoria: "Antigo Testamento",
-  imagem: "/images/criacao.png",
+  imagem: "/Historias-biblicas-React/images/criacao.png",
+
   texto: [
     "No começo de tudo, não existia nada: nem céu, nem terra, nem luz 🌌. Tudo estava vazio e escuro.",
 

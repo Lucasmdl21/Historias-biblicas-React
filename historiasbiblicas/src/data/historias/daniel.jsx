@@ -2,7 +2,7 @@ const daniel = {
   id: "daniel-leoes",
   titulo: "Daniel na Cova dos Leões",
   categoria: "Antigo Testamento",
-  imagem: '/images/danielNaCovaDosLeoes.png',
+  imagem: '/Historias-biblicas-React/images/danielNaCovaDosLeoes.png',
   texto: [
     "Há muito tempo, na terra da Babilônia, vivia um homem chamado Daniel 👨‍🦱. Ele era bondoso, sábio e amava muito a Deus. Por causa de sua honestidade, o rei gostava muito dele e confiava em seu trabalho.",
 

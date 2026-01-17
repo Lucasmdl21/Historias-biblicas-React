@@ -2,7 +2,7 @@
   id: "davi-golias",
   titulo: "Davi e Golias",
   categoria: "Antigo Testamento",
-  imagem: '/images/daviAndGolias.png',
+  imagem: '/Historias-biblicas-React/images/daviAndGolias.png',
   texto: [
     "Há muito tempo, o povo de Israel estava enfrentando um momento difícil. Eles estavam em guerra contra os filisteus, um povo forte e muito temido. Os dois exércitos estavam acampados em lados opostos de um grande vale.",
 

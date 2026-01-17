@@ -2,7 +2,7 @@ const moises = {
   id: "moises",
   titulo: "A História de Moisés",
   categoria: "Antigo Testamento",
-  imagem: "/images/moises.png",
+  imagem: "/Historias-biblicas-React/images/moises.png",
   texto: [
     "Há muito tempo, o povo de Israel vivia como escravo no Egito 😢. Eles trabalhavam duro e sofriam muito, então clamaram a Deus por ajuda.",
 

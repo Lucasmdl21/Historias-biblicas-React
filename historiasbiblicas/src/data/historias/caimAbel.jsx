@@ -2,7 +2,7 @@ const caimAbel = {
   id: "caim-e-abel-muito-longa",
   titulo: "Caim e Abel",
   categoria: "Antigo Testamento",
-  imagem: "/images/caimAbel.png",
+    imagem: "/Historias-biblicas-React/images/caimAbel.png",
   texto: [
     "Depois que Adão e Eva saíram do jardim do Éden, eles começaram uma nova vida fora do paraíso 🌿. Com o tempo, tiveram filhos e formaram a primeira família da humanidade.",
 
