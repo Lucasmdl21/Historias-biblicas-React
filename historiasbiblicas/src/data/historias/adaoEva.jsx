@@ -3,7 +3,7 @@ const adaoEva = {
   id: "adao-e-eva",
   titulo: "Adão e Eva",
   categoria: "Antigo Testamento",
-  imagem: "/images/adaoEva.png",
+  imagem: "/Historias-biblicas-React/images/adaoEva.png",
   texto: [
     "Depois de criar o mundo, Deus criou o primeiro homem e o chamou de Adão 👨. Deus o colocou em um lindo jardim chamado Éden 🌸🌳.",
 
