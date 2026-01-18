@@ -1,16 +1,28 @@
 import "./Stories.css"
+
+// Importa o hook useState do React, usado para criar estados dentro do componente
 import { useState } from "react"
+
+// Importa o componente Link do React Router para criar links de navegação entre páginas
 import { Link } from "react-router-dom"
 
-// dados
+// Importa os dados das histórias bíblicas
 import historiasBiblicas from "../data/historias"
 
-// componente
+// Importa o componente Cardhistorias, que será usado para exibir cada história em formato de cartão
 import Cardhistorias from "../components/Cardhistorias"
 
+
+// Componente Stories, que recebe como props:
+// - favorites: array com os ids das histórias favoritas
+// - toggleFavorite: função para adicionar/remover favoritos
 const Stories = ({ favorites, toggleFavorite }) => {
+
+    // Estado para armazenar o valor do input de busca
+  // Inicialmente é uma string vazia
   const [search, setSearch] = useState("")
 
+   // Filtra as histórias com base no que o usuário digitou na busca
   const historiasFiltradas = historiasBiblicas.filter(story =>
     story.titulo.toLowerCase().includes(search.toLowerCase())
   )
@@ -27,7 +39,7 @@ const Stories = ({ favorites, toggleFavorite }) => {
           type="text"
           className="inputSeach"
           placeholder="Pesquisar história..."
-          value={search}
+          value={search} // valor do input ligado ao estado 'search'
           onChange={(e) => setSearch(e.target.value)}
         />
 
