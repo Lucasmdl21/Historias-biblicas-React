@@ -16,6 +16,8 @@ const Cardhistorias = ({ images, titulo, versiculoChave, link, isFavorite, onTog
     }
   }, [isFavorite])
 
+
+  
   return (
     <div className="storyCard">
       <button
