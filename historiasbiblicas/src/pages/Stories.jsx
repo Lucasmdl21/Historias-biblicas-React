@@ -46,6 +46,7 @@ const Stories = ({ favorites, toggleFavorite }) => {
         <Link to="/historiasFavoritas" className="btnFavoritos">
           ⭐ Ver Favoritos
         </Link>
+
       </div>
 
       <div className="storiesGrid">
