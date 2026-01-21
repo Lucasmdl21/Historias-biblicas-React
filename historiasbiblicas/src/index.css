@@ -48,5 +48,6 @@ body {
   box-shadow: 0 5px 15px rgba(212, 175, 55, 0.35);
 }
 .containerTitles{
+  margin-top: 2rem;
     text-align: center;
 }

@@ -14,6 +14,7 @@ import jesusInfanciaMilagres from "./jesusInfanciaMilagres.jsx"
 import crucificacaoJesus from "./crucificacaoJesus.jsx"
 import ressurreicaoJesus from "./ressureicaoJesus.jsx"
 import sadraqueMesequeAbednego from "./sadraqueMesequeAbednego..jsx"
+import abraaoIsaque from "./abraaoIsaque.jsx"
 
 
 const historiasBiblicas = [
@@ -32,7 +33,9 @@ const historiasBiblicas = [
   jesusInfanciaMilagres,
   crucificacaoJesus,
   ressurreicaoJesus,
-  sadraqueMesequeAbednego
+  sadraqueMesequeAbednego,
+  abraaoIsaque
+
 ]
 
 export default historiasBiblicas

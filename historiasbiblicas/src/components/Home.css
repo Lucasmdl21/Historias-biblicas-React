@@ -1,13 +1,13 @@
 .home {
   min-height: 100vh;
   display: flex;
-  flex-direction: column; /* Alinha o conteúdo verticalmente */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Playfair Display', serif;
   color: white;
   text-align: center;
-  overflow: hidden; 
+  overflow-y: hidden; 
   position: relative; 
 
 

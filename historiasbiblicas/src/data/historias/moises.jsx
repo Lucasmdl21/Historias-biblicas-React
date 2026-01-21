@@ -22,7 +22,18 @@ const moises = {
 
     "Moisés voltou ao Egito e falou com o faraó, dizendo: 'Deixe o meu povo ir'. Mas o faraó não quis obedecer.",
 
-    "Então Deus enviou várias pragas sobre o Egito, mostrando Seu poder ⚡. Mesmo assim, o faraó demorou a obedecer.",
+    "Então Deus enviou várias pragas sobre o Egito, mostrando Seu poder ⚡:",
+
+    "1️⃣ A água do rio Nilo se transformou em sangue 🩸.",
+    "2️⃣ Muitas rãs invadiram casas, camas e cozinhas 🐸.",
+    "3️⃣ Pequenos piolhos surgiram sobre pessoas e animais 🐜.",
+    "4️⃣ Enxames de moscas tomaram o país 🪰.",
+    "5️⃣ Uma doença matou muitos animais dos egípcios 🐄.",
+    "6️⃣ Feridas dolorosas surgiram nas pessoas e nos animais 🤕.",
+    "7️⃣ Uma forte chuva de granizo destruiu plantações 🌨️.",
+    "8️⃣ Gafanhotos comeram tudo o que restou 🌾🐛.",
+    "9️⃣ Uma escuridão profunda cobriu o Egito por três dias 🌑.",
+    "🔟 A morte dos filhos mais velhos dos egípcios aconteceu durante a noite 😔.",
 
     "Por fim, o faraó deixou o povo ir. Moisés conduziu os israelitas para fora do Egito em direção à liberdade 🚶‍♂️🚶‍♀️.",
 
@@ -31,6 +42,19 @@ const moises = {
     "Depois que todos passaram, o mar se fechou novamente, e o povo ficou livre dos soldados do Egito.",
 
     "Depois disso, Deus levou o povo até o Monte Sinai 🏔️. Lá, Deus falou com Moisés e lhe entregou os Dez Mandamentos, que ensinavam como amar a Deus e ao próximo.",
+
+    "Os Dez Mandamentos foram:",
+
+    "1️⃣ Amar a Deus acima de tudo.",
+    "2️⃣ Não fazer imagens para adorar.",
+    "3️⃣ Não usar o nome de Deus em vão.",
+    "4️⃣ Guardar o dia de descanso.",
+    "5️⃣ Honrar pai e mãe.",
+    "6️⃣ Não matar.",
+    "7️⃣ Não cometer adultério.",
+    "8️⃣ Não roubar.",
+    "9️⃣ Não mentir.",
+    "🔟 Não desejar o que pertence ao próximo.",
 
     "Os mandamentos mostravam ao povo como viver de forma justa, obediente e cheia de amor, guiando suas escolhas todos os dias.",
 
