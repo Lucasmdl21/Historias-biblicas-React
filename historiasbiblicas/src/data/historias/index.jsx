@@ -34,7 +34,7 @@ const historiasBiblicas = [
   crucificacaoJesus,
   ressurreicaoJesus,
   sadraqueMesequeAbednego,
-  abraaoIsaque
+  abraaoIsaque 
 
 ]
 
