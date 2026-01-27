@@ -15,6 +15,7 @@ import crucificacaoJesus from "./crucificacaoJesus.jsx"
 import ressurreicaoJesus from "./ressureicaoJesus.jsx"
 import sadraqueMesequeAbednego from "./sadraqueMesequeAbednego..jsx"
 import abraaoIsaque from "./abraaoIsaque.jsx"
+import josueJerico from "./josueJerico.jsx"
 
 
 const historiasBiblicas = [
@@ -34,7 +35,8 @@ const historiasBiblicas = [
   crucificacaoJesus,
   ressurreicaoJesus,
   sadraqueMesequeAbednego,
-  abraaoIsaque 
+  abraaoIsaque,
+  josueJerico
 
 ]
 
